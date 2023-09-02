@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+body, h1, h2, div, span, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color and some padding around the entire page */
+body {
+  background-color: #F4F4F4;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+#container {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Style the title */
+#title {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Style the controls wrapper */
+#controls-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  padding: 20px;
+}
+
+/* Style each control */
+.break-wrapper, .session-wrapper {
+  text-align: center;
+}
+
+/* Style the control buttons */
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Style the timer */
+#timer {
+  padding: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Style the start/stop and reset buttons */
+#start_stop, #reset {
+  background-color: #333;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#start_stop:hover, #reset:hover {
+  background-color: #555;
+}
